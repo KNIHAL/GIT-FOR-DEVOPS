@@ -1,0 +1,16 @@
+2 clear
+   3 clear
+   4 git status
+   5 git add testing.py
+   6 git status
+   7 git commit -m "added testing file"
+   8 rm testing.py
+   9 git status
+  10 git restore testing.py
+  11 clear
+   24 git push origin master
+  25 git remote set-url origin
+  26 git remote -v
+  27 git push origin master
+  28 git push origin main
+  29 clear
